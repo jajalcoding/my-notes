@@ -1,5 +1,5 @@
 
-## FortiTester Question to Baojun
+## FortiTester Question
 Questions :
 1. If we want to demo FTS MITRE ATTACK capability, should we use v6 or v10+ Beta
 2. In v6 : 311 and in v10+ : 340, so more on v10+ ?
