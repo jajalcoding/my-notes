@@ -7,14 +7,13 @@ Questions :
 4. If we are using this demo, is it best to demo FortiEDR and FortiGate ? Or it is more suited for FortiEDR so it detects 'anomalies' in the host installed ?
 5. In Attack v6, there are RATs, but in Attack v10+ Beta, there is no more RATs. Also in previous v6 we can specify Active User/Logon User, also enable Windows Defender and Firewall..
 
+![Pasted image 20221031141125](https://user-images.githubusercontent.com/70680913/199729706-341fe8d8-da28-45fb-84bd-64a1786f46a3.png)
+
 But in v10 it is very minimal, So what's the best ?
-
-![[Pasted image 20221031141125.png]]
-
-![[Pasted image 20221031141242.png]]
+![Pasted image 20221031141242](https://user-images.githubusercontent.com/70680913/199729753-aced60e8-10b3-43dd-b36d-6a57df1ae865.png)
 
 # Testing On Linux
-![[Pasted image 20221031214832.png]]
+![Pasted image 20221031214832](https://user-images.githubusercontent.com/70680913/199729798-179047b9-95a1-4da4-a2ee-8c49e2758d0c.png)
 
 Have issues with activate.py, so manually run the fortiagent
 Seems to be working.
@@ -23,10 +22,10 @@ What is the best way to demo this MITRE ATT&CK ?
 I can see like "Bitsadmin Download" -> what is the objective for this action? Should bitsadmin be blocked ? ( after googling found out that bitsadmin is background download and process only see as svchosts.exe )
 
 # FortiAgent in windows
+![Pasted image 20221101212147](https://user-images.githubusercontent.com/70680913/199729857-fb7c6490-906e-4906-8f2c-4dadf31cc0a9.png)
 
 It looks like we can not use different ports than 443. In Linux this is possible !
 
-![[Pasted image 20221101212147.png]]
 
 # Trick Use FGT VIP
 
@@ -75,10 +74,10 @@ paw: dogvoeigrg
 
 
 ## Mimikatz trigger Windows Defender
-![[Pasted image 20221101233243.png]]
+![Pasted image 20221101233243](https://user-images.githubusercontent.com/70680913/199729900-0871c759-ebb9-4d7e-97a9-c8bb07c9b2b8.png)
 
 # Capture WebCam also trigger Windows Defender
-![[Pasted image 20221101234753.png]]
+![Pasted image 20221101234753](https://user-images.githubusercontent.com/70680913/199729951-8abe2b10-644d-42fb-b11c-d9f6478fe950.png)
 
 ## Capture WebCam works
 (after disabling real-time windows defender)
@@ -105,12 +104,11 @@ C:\Users\Public>dir
 12/07/2019  04:14 PM    <DIR>          Videos
 
 ```
-
-![[Pasted image 20221102133510.png]]
+![Pasted image 20221102133510](https://user-images.githubusercontent.com/70680913/199730030-82e88dbd-9bb2-4035-bc6f-4ef04a69a6bf.png)
 
 ## New Fortiagent-windows.exe 2.0.1 given by Owen 3/11/2022
+![Pasted image 20221103192751](https://user-images.githubusercontent.com/70680913/199730075-49f1ddde-a1b9-46ed-9139-598c28c04c05.png)
 
-![[Pasted image 20221103192751.png]]
 >[!info]
 It works... so this 2.0.1 can help if the FortiTester is not using standard port https 
 
